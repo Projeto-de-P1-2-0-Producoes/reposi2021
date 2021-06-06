@@ -154,3 +154,35 @@ Received Import Request.
 Start importing Assets/Sprites/Scenerie_Sprites/Plataforma_Base.png using Guid(4530396404de0db44b9e21b81ae90547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76afd7d34dfd8eaa3478277ac6048aed') in 0.029137 seconds
   Import took 0.032669 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 3070.526169 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/Chão.png
+  artifactKey: Guid(ac4a9ef51f664c04f9ed696d25b34df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/Chão.png using Guid(ac4a9ef51f664c04f9ed696d25b34df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce7907a0a0ef91c6b93f00009c77859') in 0.036828 seconds
+  Import took 0.047536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/Plataforma_Fraca.png
+  artifactKey: Guid(406cad9e9dad751409d0e734ef106d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/Plataforma_Fraca.png using Guid(406cad9e9dad751409d0e734ef106d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d7c2f2c27cf902201df0dc6ba6220f') in 0.033248 seconds
+  Import took 0.038258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/Plataforma_Base.png
+  artifactKey: Guid(4530396404de0db44b9e21b81ae90547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/Plataforma_Base.png using Guid(4530396404de0db44b9e21b81ae90547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279b79afc98d7fa41aeb5941107f3d6c') in 0.046599 seconds
+  Import took 0.062203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 250.579498 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c037ca2c5e51484f479ce63818a6327') in 0.049559 seconds
+  Import took 0.074243 seconds .
+
