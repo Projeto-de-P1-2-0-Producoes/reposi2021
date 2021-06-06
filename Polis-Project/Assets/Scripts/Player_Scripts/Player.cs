@@ -22,10 +22,13 @@ public sealed class Player : Movement
         if(Input.GetKey(KeyCode.D))
         {
             right = true;
+            Debug.Log("direita");
         }
         if(Input.GetKey(KeyCode.A))
         {
             left = true;
+            
+            Debug.Log("esquerda");
         }
         if(Input.GetKeyDown(KeyCode.Space))
         {
