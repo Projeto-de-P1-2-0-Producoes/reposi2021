@@ -2,74 +2,54 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interative_Ground : MonoBehaviour
+public class Interative_Ground : InterativeCollision_Object
 {
-    private BoxCollider2D obj_Collider;
-    private SpriteRenderer obj_Sprite;
-    private GameObject player;
-    private bool isEnabled;
-    private bool auxBool;
-    private bool auxBool1;
-    private bool auxBool2;
-    private bool IsRunning;
-    private void Start()
+    private Collider2D groundCollider;
+    private SpriteRenderer groundRender;
+    // variáveis do Collider e Sprite do objeto
+    [SerializeField]
+    private float delayTime1 = 3;
+    [SerializeField]
+    private float delayTime2 = 3;
+    protected override void Start()
     {
-        player = GameObject.Find("Player");
-        obj_Sprite = GetComponent<SpriteRenderer>();
-        obj_Collider = GetComponent<BoxCollider2D>();
+        groundCollider = GameObject.Find(childName).GetComponent<Collider2D>();
+        groundRender = GameObject.Find(childName).GetComponent<SpriteRenderer>();
+        base.Start();
+        // o base é importante para a ordem das ações ocorrer
     }
-    private void Update() 
+    protected override void FirstAction()
     {
-        if(auxBool1)
-        {
-            StartCoroutine(FirstAction());
-            StopCoroutine(FirstAction());
-            auxBool1 = false;
-        }
-        if(auxBool2 && !IsRunning)
-        {
-            StartCoroutine(SecondAction());
-            StopCoroutine(SecondAction());
-            auxBool2 = false;
-        }
+        StartCoroutine(Disappear());
+        // começa a primeira coroutine
+        // as rotinas não soprepôem por conta do desativamento do collider nas coroutine
     }
-    private void OnCollisionEnter2D(Collision2D other) 
+    protected override void SecondAction()
     {
-        if(other.gameObject.tag == "Player")
-        {
-            auxBool1 = true;
-        }
+        StartCoroutine(Appear());
+        // começa a segunda coroutine
     }
-    private void OnCollisionExit2D(Collision2D other) 
+    private IEnumerator Disappear()
     {
-        if(other.gameObject.tag == "Player")
-        {
-            auxBool2 = true;
-        }
-      
+        groundRender.color = Color.black;
+        yield return new WaitForSeconds(delayTime1); 
+        groundCollider.enabled = false;
+        /*
+        muda a cor
+        espera 3 segundos
+        desativa o collider
+        */
     }
-    private IEnumerator FirstAction()
+    private IEnumerator Appear()
     {
-        IsRunning = true;
-        obj_Sprite.color = Color.yellow;
-        if(!auxBool)
-        {
-            yield return new WaitForSeconds(3); 
-            obj_Collider.enabled = false;
-            auxBool = true;
-        }
-        IsRunning = false;
+        yield return new WaitForSeconds(delayTime2); 
+        groundCollider.enabled = true;
+        groundRender.color = Color.blue;
+        /*
+        espera 3 segundos
+        ativa o collider
+        muda a cor
+        */
     }
-    private IEnumerator SecondAction()
-    {
-        if(auxBool)
-        {
-            yield return new WaitForSeconds(3); 
-            obj_Collider.enabled = true;
-            obj_Sprite.color = Color.blue;
-            auxBool = false;
-        }
-    }
-    
 }
 

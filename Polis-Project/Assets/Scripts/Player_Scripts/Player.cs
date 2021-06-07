@@ -6,29 +6,30 @@ public sealed class Player : Movement
 {
     protected override void Awake() 
     {
+        // Chama o awake() do Movement
         base.Awake();
     }
     private void Update()
     {
+        // Chama o GettingInputs()
         GettingInputs();
     }
     protected override void FixedUpdate()
     {
+        // Chama o FixedUpdate() do Movement
         base.FixedUpdate();
     }
 
     void GettingInputs()
     {
+        // Ativa um bool para cada Input recebido
         if(Input.GetKey(KeyCode.D))
         {
             right = true;
-            Debug.Log("direita");
         }
         if(Input.GetKey(KeyCode.A))
         {
             left = true;
-            
-            Debug.Log("esquerda");
         }
         if(Input.GetKeyDown(KeyCode.Space))
         {
