@@ -35,6 +35,15 @@ public sealed class Player : Movement
         {
             jump = true;
         }
+        // Ativa um bool para o input das setas
+        if(Input.GetAxis("Horizontal") > 0)
+        {
+            right = true;
+        }
+        if(Input.GetAxis("Horizontal") < 0)
+        {
+            left = true;
+        }
     }
 }
 

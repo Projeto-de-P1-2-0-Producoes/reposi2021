@@ -6,6 +6,8 @@ public class Change_Scene : MonoBehaviour
 {
     private Transform camPosition;
     // Pega o Transform da camera
+    [SerializeField]
+    private float ajdustObjPosition = 48;
     private BoxCollider2D bc;
     // Pega o BoxCollider2D do objeto que usamos para mudar de cena
     private Transform thisTransform;
@@ -21,7 +23,7 @@ public class Change_Scene : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            camPosition.position = new Vector3(camPosition.position.x + 48,camPosition.position.y,camPosition.position.z);
+            camPosition.position = new Vector3(camPosition.position.x + ajdustObjPosition,camPosition.position.y,camPosition.position.z);
             // Muda a posição da camera exatamente para a direita
             thisTransform.position = new Vector3(thisTransform.position.x - 4,thisTransform.position.y,thisTransform.position.z);
             // Muda a posição do objeto que usamos de mudança de cena para exatamente esquerda da camera
