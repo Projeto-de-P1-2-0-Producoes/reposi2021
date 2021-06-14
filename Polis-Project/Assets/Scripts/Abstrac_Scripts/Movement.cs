@@ -17,13 +17,13 @@ public abstract class Movement : MonoBehaviour
     // Rigidbody2D do Player
     protected LayerMask lm;
     // Layer do chão
-    protected CircleCollider2D cd;
-    // CircleCollider2D do Player
+    protected Collider2D cd;
+    // Collider2D do Player
     protected virtual void Awake() 
     {
         // Atribui as três ultimas variáveis a componentes / Layers
         rb = GetComponent<Rigidbody2D>();
-        cd = GetComponent<CircleCollider2D>();
+        cd = GetComponent<Collider2D>();
         lm = LayerMask.GetMask("Ground");
     }
     protected virtual void FixedUpdate() 

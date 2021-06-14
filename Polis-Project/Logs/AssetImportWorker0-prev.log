@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'pt' Physical Memory: 6090 MB
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'pt' Physical Memory: 6090 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/henri/OneDrive/Documentos/Projetos/Polis/reposi2021/Polis-Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51958
+62588
 Successfully changed project path to: C:/Users/henri/OneDrive/Documentos/Projetos/Polis/reposi2021/Polis-Project
 C:/Users/henri/OneDrive/Documentos/Projetos/Polis/reposi2021/Polis-Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 98.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 58.02 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,726 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003563 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.414 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.309 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1817 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 2.497300 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.061100 ms  DeleteObjects: 0.157700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17352e6af90578beffebd75e1c8a54cf') in 0.279623 seconds
+  Import took 0.283800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.683115 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackGroundPalett.asset
+  artifactKey: Guid(ea8db3cfa58b112488f09e9b2d057b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackGroundPalett.asset using Guid(ea8db3cfa58b112488f09e9b2d057b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce908cc3c57d07e0acfde4a869a17850') in 0.136564 seconds
+  Import took 0.141524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/Rectangular Palette.prefab
+  artifactKey: Guid(9671fd3264b965145b341ad09ff291fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/Rectangular Palette.prefab using Guid(9671fd3264b965145b341ad09ff291fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675ae5790dac05f1699c9f6124c3c119') in 0.041243 seconds
+  Import took 0.045075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.372072 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccde69e037e4e2eb456bbde6c7392c3a') in 0.022253 seconds
+  Import took 0.028320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.359442 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d02d51841654b5bb3d741f7f6bc877e') in 0.028194 seconds
+  Import took 0.033657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.745783 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8854b35a6e486d058bbc1bcaa02b0d8a') in 0.021163 seconds
+  Import took 0.027663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.178402 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc44df3d879966f3acf50a0618d170c3') in 0.021171 seconds
+  Import took 0.025606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.499973 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cbf200d81c2d240d6ec9b60d6642f6') in 0.034936 seconds
+  Import took 0.044342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.309717 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dc21849c7927ffece759e78d098eeb') in 0.023652 seconds
+  Import took 0.030611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 841.784870 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/Rectangular Palette.prefab
+  artifactKey: Guid(9671fd3264b965145b341ad09ff291fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/Rectangular Palette.prefab using Guid(9671fd3264b965145b341ad09ff291fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b783df83452537d3a522ceecb1769bc') in 0.014716 seconds
+  Import took 0.019450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.108525 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/Rectangular Palette.prefab
+  artifactKey: Guid(9671fd3264b965145b341ad09ff291fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/Rectangular Palette.prefab using Guid(9671fd3264b965145b341ad09ff291fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd9f2355f0457593d3849e084f03913') in 0.010976 seconds
+  Import took 0.018631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.923328 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/Rectangular Palette.prefab
+  artifactKey: Guid(9671fd3264b965145b341ad09ff291fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/Rectangular Palette.prefab using Guid(9671fd3264b965145b341ad09ff291fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28aca33fc2e852ae1c09d10edc561d77') in 0.012688 seconds
+  Import took 0.017705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.022414 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/Rectangular Palette.prefab
+  artifactKey: Guid(9671fd3264b965145b341ad09ff291fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/Rectangular Palette.prefab using Guid(9671fd3264b965145b341ad09ff291fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c4caedf96de76d29b04046e6fe83fd') in 0.014200 seconds
+  Import took 0.019150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.871685 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deacb7fba84086480240e597b7eccc65') in 0.073502 seconds
+  Import took 0.080483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.708177 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee875d39845c110ddaa58e29241030a') in 0.061279 seconds
+  Import took 0.068007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.275225 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2734c99b9dd7e880964113a3f3ada9c3') in 0.058172 seconds
+  Import took 0.063215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.766336 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8e08308d90535fbc0e1c22e464ff82') in 0.062399 seconds
+  Import took 0.066996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 848.937864 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2e079812fa04c67d0a38645c94cc2a') in 0.085871 seconds
+  Import took 0.093202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.955770 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9667c7661f9c942a4907732795bed836') in 0.073816 seconds
+  Import took 0.078453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.812715 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffcfce799ce83a427a7efc22fb3d02d') in 0.071298 seconds
+  Import took 0.077030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.897671 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d3ac2531fd1a220309b3db2fab8a33') in 0.079252 seconds
+  Import took 0.083684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.999287 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b600ce17c3aaaf56dc5be53b39332c') in 0.066387 seconds
+  Import took 0.075064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.108853 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07aecf395d4aef4d4e9a420b272edc0') in 0.060900 seconds
+  Import took 0.064926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.922565 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0896cec1388ad3eaf3a3d3c392a35962') in 0.058748 seconds
+  Import took 0.063318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.147375 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60a1443ff95e0b2b226d59d5573e4a9') in 0.059505 seconds
+  Import took 0.064831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.120180 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b655857a8f9646bb2d59ed7ff4c5586') in 0.059632 seconds
+  Import took 0.064220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.073227 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22c682ebe9f14a76c19f5f9c2edba4b') in 0.058211 seconds
+  Import took 0.062565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.551236 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3a7cc810de334a5188740dc3a28e29') in 0.059306 seconds
+  Import took 0.064055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.964531 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28493d2bbcba89bfef80b13923916472') in 0.425364 seconds
+  Import took 0.484601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.197630 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43db0c018e85450327e62ac176f7a08') in 0.061079 seconds
+  Import took 0.065262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.074758 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf1242ca79ab6a1381159e8b33380fa') in 0.066655 seconds
+  Import took 0.074949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.750266 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885968c51ebe514f013d9f9a40d01b46') in 0.058411 seconds
+  Import took 0.062872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.187587 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/cenario cloneporra-1.png.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c175bc75592b8deea9fc98d4cbf3fe') in 0.058588 seconds
+  Import took 0.063458 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2272.
+Total: 2.844800 ms (FindLiveObjects: 0.267700 ms CreateObjectMapping: 0.153400 ms MarkObjects: 2.273300 ms  DeleteObjects: 0.148800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.770253 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/GrounPalett/GroundPalette.prefab
+  artifactKey: Guid(46515f5422e657e498ca456ec75e4fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/GrounPalett/GroundPalette.prefab using Guid(46515f5422e657e498ca456ec75e4fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b40d534dae3817a08d07be239f028c') in 0.089094 seconds
+  Import took 0.093789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 250.692871 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background.png_0.asset
+  artifactKey: Guid(8c32687ce8aebec468aa12198dff0c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background.png_0.asset using Guid(8c32687ce8aebec468aa12198dff0c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb228f65782ccccf7eadefc64f40e760') in 0.053124 seconds
+  Import took 0.057786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_1.asset
+  artifactKey: Guid(686f23f5560085b42a86920d3ff7be08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_1.asset using Guid(686f23f5560085b42a86920d3ff7be08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce1999eae2829a2f140c7f96d3537da') in 0.034418 seconds
+  Import took 0.038958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_4.asset
+  artifactKey: Guid(01e8641f72984bf4da252649308f4f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_4.asset using Guid(01e8641f72984bf4da252649308f4f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdf6dc4d26ed23c48e49a1a66269b70') in 0.051144 seconds
+  Import took 0.055863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/BackgroundPallet.prefab
+  artifactKey: Guid(489ac8f3e42520c41a3a62ceafc83fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/BackgroundPallet.prefab using Guid(489ac8f3e42520c41a3a62ceafc83fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e46f4f10abce8c8929caf658a732262') in 0.014338 seconds
+  Import took 0.019757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_2.asset
+  artifactKey: Guid(5f79abc7e75b5c94792b012e0456f4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_2.asset using Guid(5f79abc7e75b5c94792b012e0456f4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e71d2dfd30925259bd092f2641c62b') in 0.024315 seconds
+  Import took 0.028762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_0.asset
+  artifactKey: Guid(d41b1b6db2f997f41a4727c140c51b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_0.asset using Guid(d41b1b6db2f997f41a4727c140c51b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904307e4c09d782f43ba0dc5776f5b35') in 0.020702 seconds
+  Import took 0.025618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/BackgroundPalett.prefab
+  artifactKey: Guid(565465d86d251a5499a9c9d1b7230eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/BackgroundPalett.prefab using Guid(565465d86d251a5499a9c9d1b7230eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38be2dec25884a58d88324fb497e5731') in 0.014463 seconds
+  Import took 0.018759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_3.asset
+  artifactKey: Guid(d07daa566059207468ae91af4785cd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_3.asset using Guid(d07daa566059207468ae91af4785cd94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9473b3660a791ce00b4acf9a9fecaa2') in 0.025661 seconds
+  Import took 0.029781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_5.asset
+  artifactKey: Guid(78bae71490bc4664985d3601c7039c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_5.asset using Guid(78bae71490bc4664985d3601c7039c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61278ca0567259528170683c69b2fb25') in 0.028141 seconds
+  Import took 0.034628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/BackgroundPalette.prefab
+  artifactKey: Guid(3364ff56420838c49905d5298d2e149d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/BackgroundPalette.prefab using Guid(3364ff56420838c49905d5298d2e149d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fec42918080a8d8b39fdda1554c546c') in 0.017105 seconds
+  Import took 0.021431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.439005 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_6.asset
+  artifactKey: Guid(1903e40299072574eb36f802af664a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_6.asset using Guid(1903e40299072574eb36f802af664a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99074251b30561fda0592cc152ee09b5') in 0.041514 seconds
+  Import took 0.046006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_8.asset
+  artifactKey: Guid(b31c5010cb244c54bbc1961563e5761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_8.asset using Guid(b31c5010cb244c54bbc1961563e5761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec63d5e2b80bf85ce22ad9df3611f02') in 0.023344 seconds
+  Import took 0.027221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_9.asset
+  artifactKey: Guid(404867e7a34e5c041a80a84876dc2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_9.asset using Guid(404867e7a34e5c041a80a84876dc2e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0d36096b06910afa4d73ac2268f5cc') in 0.030433 seconds
+  Import took 0.034975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_11.asset
+  artifactKey: Guid(44a308c301ce5034492b7d4f44c4b1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_11.asset using Guid(44a308c301ce5034492b7d4f44c4b1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6092dd2da167fa0f90d7976a14d62ad') in 0.019637 seconds
+  Import took 0.024247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_10.asset
+  artifactKey: Guid(7dc55e3ebb3067b4daf9f9e625cb700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_10.asset using Guid(7dc55e3ebb3067b4daf9f9e625cb700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ba0f482c42ad4b96a2f99c6f26a9ee') in 0.019330 seconds
+  Import took 0.023032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_7.asset
+  artifactKey: Guid(ac410d28b159f7c44b3c0136e52774ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_7.asset using Guid(ac410d28b159f7c44b3c0136e52774ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f84ccecbfb482cf2a4fa7b762c4a07e') in 0.025317 seconds
+  Import took 0.029294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.592568 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_12.asset
+  artifactKey: Guid(796d7ed2457e49946b565fce9cfa5748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_12.asset using Guid(796d7ed2457e49946b565fce9cfa5748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5ce3e12ed89db93d35de0b31e92a02') in 0.017466 seconds
+  Import took 0.021563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_13.asset
+  artifactKey: Guid(79f253a3288413b4e9cd3d43e05ab9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_13.asset using Guid(79f253a3288413b4e9cd3d43e05ab9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a641c2fe6a9b37ff51320fd24628ec7') in 0.019293 seconds
+  Import took 0.023465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_12.asset
+  artifactKey: Guid(796d7ed2457e49946b565fce9cfa5748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_12.asset using Guid(796d7ed2457e49946b565fce9cfa5748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5ce3e12ed89db93d35de0b31e92a02') in 0.014404 seconds
+  Import took 0.018491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.322882 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_14.asset
+  artifactKey: Guid(5aab985b5ddcdcf41a36a3adf246a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_14.asset using Guid(5aab985b5ddcdcf41a36a3adf246a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763d809d0f1a85756dae3fe0fa683ce5') in 0.040161 seconds
+  Import took 0.043831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_15.asset
+  artifactKey: Guid(52957edbaa37bd1479d3a24e17b13d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_15.asset using Guid(52957edbaa37bd1479d3a24e17b13d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06413866e5dd961bf1af6c1ecaaa1cb') in 0.017538 seconds
+  Import took 0.021317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_14.asset
+  artifactKey: Guid(5aab985b5ddcdcf41a36a3adf246a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_14.asset using Guid(5aab985b5ddcdcf41a36a3adf246a52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763d809d0f1a85756dae3fe0fa683ce5') in 0.015398 seconds
+  Import took 0.019397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_15.asset
+  artifactKey: Guid(52957edbaa37bd1479d3a24e17b13d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_15.asset using Guid(52957edbaa37bd1479d3a24e17b13d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06413866e5dd961bf1af6c1ecaaa1cb') in 0.015293 seconds
+  Import took 0.019551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.238333 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_0 1.asset
+  artifactKey: Guid(a65e035cb99a0f643989aaac72e58b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_0 1.asset using Guid(a65e035cb99a0f643989aaac72e58b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb7d9592aa0e9ce94e5a024bd7a879') in 0.020817 seconds
+  Import took 0.026906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_3 1.asset
+  artifactKey: Guid(ee6fb709745194847900ca7e253d6428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_3 1.asset using Guid(ee6fb709745194847900ca7e253d6428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0df0fe64f7ccb9384dbfaaae314de0') in 0.023400 seconds
+  Import took 0.030200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_6 1.asset
+  artifactKey: Guid(b84495c499d4f1942a5311cdfa3da92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_6 1.asset using Guid(b84495c499d4f1942a5311cdfa3da92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79c51d86f2b396ab8132b932d019424') in 0.019298 seconds
+  Import took 0.023673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_4 1.asset
+  artifactKey: Guid(20a8b61c51f83864d843882afea9ae10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_4 1.asset using Guid(20a8b61c51f83864d843882afea9ae10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80da25d67d13c4d6a208ff3ddbc0e541') in 0.019912 seconds
+  Import took 0.029072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_0 1.asset
+  artifactKey: Guid(a65e035cb99a0f643989aaac72e58b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_0 1.asset using Guid(a65e035cb99a0f643989aaac72e58b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb7d9592aa0e9ce94e5a024bd7a879') in 0.012268 seconds
+  Import took 0.016382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_8 1.asset
+  artifactKey: Guid(4f47957093917924799331f1fc8904c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_8 1.asset using Guid(4f47957093917924799331f1fc8904c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83b4cf2c01778eab775edfd382891d7') in 0.018825 seconds
+  Import took 0.023221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_1 1.asset
+  artifactKey: Guid(ae0226933b8bab442816b07c57b45780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_1 1.asset using Guid(ae0226933b8bab442816b07c57b45780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68e078d0def16f00b17c729297ec2d0') in 0.022884 seconds
+  Import took 0.029066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_7 1.asset
+  artifactKey: Guid(e6fd829b4787b72428d39c9b58937ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_7 1.asset using Guid(e6fd829b4787b72428d39c9b58937ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc4601ba581834259374115d627c1e7') in 0.037704 seconds
+  Import took 0.044715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_2 1.asset
+  artifactKey: Guid(00e8b2157f768e5408944fe44215bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_2 1.asset using Guid(00e8b2157f768e5408944fe44215bcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c58ea766dcf96fb539cc328e16defe6') in 0.028162 seconds
+  Import took 0.034408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_9 1.asset
+  artifactKey: Guid(99df87c15021c2049b874ed9d3a291b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_9 1.asset using Guid(99df87c15021c2049b874ed9d3a291b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c63425dec0efcc1b70b93afc37dcf7') in 0.025894 seconds
+  Import took 0.031041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_5 1.asset
+  artifactKey: Guid(8d34487db4821934ca7c40a9fbdc6e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_5 1.asset using Guid(8d34487db4821934ca7c40a9fbdc6e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ee38f926c9cc5984b26b7e946ca048') in 0.026758 seconds
+  Import took 0.032737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_11 1.asset
+  artifactKey: Guid(128229d369d7a5f4f8034b4d4dada045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_11 1.asset using Guid(128229d369d7a5f4f8034b4d4dada045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec73be3a162d959d1b4727d8717ac73') in 0.022668 seconds
+  Import took 0.035354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_10 1.asset
+  artifactKey: Guid(91e684e889533db4d92b449560a0f034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/cenario cloneporra-1.png_10 1.asset using Guid(91e684e889533db4d92b449560a0f034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca56c5f738268b3939f0255170361a2') in 0.021419 seconds
+  Import took 0.031091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.818815 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f83e41d7f4020ed40c7994daeb3687') in 0.095018 seconds
+  Import took 0.099332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.605231 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/BackgroundPallet.prefab
+  artifactKey: Guid(489ac8f3e42520c41a3a62ceafc83fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/BackgroundPallet.prefab using Guid(489ac8f3e42520c41a3a62ceafc83fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdc0bf4ec5e7a305803a59c2cc7076b') in 0.017984 seconds
+  Import took 0.030657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1070.734273 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background.png
+  artifactKey: Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background.png using Guid(c94377eca5f83554eaf024b3b5c1ecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0a2185808a49130314b1b4c3988a6f') in 0.037166 seconds
+  Import took 0.041841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 527.339154 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Materials
+  artifactKey: Guid(576d8b4c945d2f545971b34c00c27550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Materials using Guid(576d8b4c945d2f545971b34c00c27550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e0c7d71438b0b5eb47e2b82488b880') in 0.024702 seconds
+  Import took 0.063393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.662173 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Materials/Background.mat
+  artifactKey: Guid(a349c5c0428814e4293190ad8d44b5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Materials/Background.mat using Guid(a349c5c0428814e4293190ad8d44b5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef64edb6e58a999ae065a437ca997b4c') in 0.104839 seconds
+  Import took 0.124927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.519392 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_0.asset
+  artifactKey: Guid(f8e2c43be365f0a418d87e8e81e14f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_0.asset using Guid(f8e2c43be365f0a418d87e8e81e14f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4675b1131645d3a05468a9ded8bde86') in 0.053031 seconds
+  Import took 0.057560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_4.asset
+  artifactKey: Guid(f57cddf1566251d4b9f74e6c96eb6c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_4.asset using Guid(f57cddf1566251d4b9f74e6c96eb6c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121cda480f9baf2e1362a191baef6fe2') in 0.027291 seconds
+  Import took 0.047743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_3.asset
+  artifactKey: Guid(6f1454cbb6cbcc1468faf742d6614395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_3.asset using Guid(6f1454cbb6cbcc1468faf742d6614395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd116f35376ba3c5389902303208b9f1b') in 0.031713 seconds
+  Import took 0.035449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_5.asset
+  artifactKey: Guid(a42d13aeb15e72e4798771faa01d5d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_5.asset using Guid(a42d13aeb15e72e4798771faa01d5d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7fa5e56fb7d8f2090b837822f5e3ae') in 0.024610 seconds
+  Import took 0.039985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_2.asset
+  artifactKey: Guid(51681d4005e26be4ba19b26ac956380f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_2.asset using Guid(51681d4005e26be4ba19b26ac956380f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966eadd59ac715e1ae0f9d6b0c28515e') in 0.026664 seconds
+  Import took 0.031565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_6.asset
+  artifactKey: Guid(f859152fa36520e4caced5f2ae762bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_6.asset using Guid(f859152fa36520e4caced5f2ae762bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5510cba9f358e7f2ca4cdbfde7c79db') in 0.044020 seconds
+  Import took 0.048301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_1.asset
+  artifactKey: Guid(1ad7f635b0bbee448ac45ce953b05af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_1.asset using Guid(1ad7f635b0bbee448ac45ce953b05af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7964dce4e3a06e288a13a1051a6d09a5') in 0.024904 seconds
+  Import took 0.028966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.236833 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_7.asset
+  artifactKey: Guid(0ccd86f4ebac69546a913f97ad2dc6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/Background_7.asset using Guid(0ccd86f4ebac69546a913f97ad2dc6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77492132c836af4d9ac08b5cfac430f0') in 0.023063 seconds
+  Import took 0.029731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Sprites/Scenerie_Sprites/BackgroundPalett/BackgroundPallet.prefab
+  artifactKey: Guid(489ac8f3e42520c41a3a62ceafc83fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Scenerie_Sprites/BackgroundPalett/BackgroundPallet.prefab using Guid(489ac8f3e42520c41a3a62ceafc83fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04df82dd4e70ed43345305673a9618d3') in 0.017304 seconds
+  Import took 0.023286 seconds .
+

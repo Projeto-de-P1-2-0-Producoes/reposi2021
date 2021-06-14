@@ -13,8 +13,10 @@ public abstract class InterativeTriggering_Object : MonoBehaviour
     protected bool firstDone = false;
     protected LayerMask lm;
     protected Rigidbody2D player;
+    protected bool IsOnRadius;
     protected virtual void Start()
     {
+        IsOnRadius = false;
         childTransform = GameObject.Find(childName).GetComponent<Transform>();
         player = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
         //player.WakeUp();
@@ -29,13 +31,14 @@ public abstract class InterativeTriggering_Object : MonoBehaviour
     }
     protected void OnTriggerStay2D(Collider2D other) 
     {
-        if(inputRegister && !firstDone && other.gameObject.tag == "Player")
+        IsOnRadius = true;
+        if(inputRegister && !firstDone && other.gameObject.tag == "Player" && IsOnRadius)
         {
             FirstAction();
             inputRegister = false; 
             firstDone = true;
         }
-        else if(other.gameObject.tag == "Player" && inputRegister && firstDone)
+        else if(other.gameObject.tag == "Player" && inputRegister && firstDone && IsOnRadius)
         // a terceira verificação é para conferir se o objeto já foi movido
         {
             SecondAction();
@@ -43,6 +46,14 @@ public abstract class InterativeTriggering_Object : MonoBehaviour
             firstDone = false;
         }
         
+    }
+    protected void OnTriggerExit2D(Collider2D other) 
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            IsOnRadius = false;
+            inputRegister = false;
+        }
     }
     protected void GetInput()
     {

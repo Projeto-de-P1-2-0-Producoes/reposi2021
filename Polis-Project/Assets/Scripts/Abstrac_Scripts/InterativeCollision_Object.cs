@@ -13,7 +13,6 @@ public abstract class InterativeCollision_Object : MonoBehaviour
     // será empregado por um método mais adiante
     protected bool auxBool;
     // bool auxiliar para diferenciar a primeira ddad segunda ação
-
     protected abstract void FirstAction();
     // método que terá dentro a primeira ação a ser feita
     protected abstract void SecondAction();

@@ -12,6 +12,7 @@ public sealed class Player : Movement
     private void Update()
     {
         // Chama o GettingInputs()
+        EndInput();  
         GettingInputs();
     }
     protected override void FixedUpdate()
@@ -20,7 +21,7 @@ public sealed class Player : Movement
         base.FixedUpdate();
     }
 
-    void GettingInputs()
+    private void GettingInputs()
     {
         // Ativa um bool para cada Input recebido
         if(Input.GetKey(KeyCode.D))
@@ -43,6 +44,17 @@ public sealed class Player : Movement
         if(Input.GetAxis("Horizontal") < 0)
         {
             left = true;
+        }
+    }
+    private void EndInput()
+    {
+        if(right)
+        {
+            right = false;
+        }
+        if(left)
+        {
+            right = false;
         }
     }
 }
