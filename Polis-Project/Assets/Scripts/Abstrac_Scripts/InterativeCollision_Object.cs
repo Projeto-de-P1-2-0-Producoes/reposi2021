@@ -13,6 +13,8 @@ public abstract class InterativeCollision_Object : MonoBehaviour
     // será empregado por um método mais adiante
     protected bool auxBool;
     // bool auxiliar para diferenciar a primeira ddad segunda ação
+    protected bool done = true;
+    // bool checa antes de entrar numa das action se outra está em andamento
     protected abstract void FirstAction();
     // método que terá dentro a primeira ação a ser feita
     protected abstract void SecondAction();
@@ -26,19 +28,23 @@ public abstract class InterativeCollision_Object : MonoBehaviour
     protected void OnCollisionEnter2D(Collision2D other) 
     // quando o Player tocar o objeto 
     {
-         if(other.gameObject.tag == "Player")
+         if(other.gameObject.tag == "Player" && done)
         {  
+            done = false;
             FirstAction();
             auxBool = false;
+            done = true;
         }
     }
     protected void OnCollisionExit2D(Collision2D other) 
     // quanddo o Player deixar de tocar o objeto
     {
-        if(other.gameObject.tag == "Player" && !auxBool)
+        if(other.gameObject.tag == "Player" && !auxBool && done)
         {
+            done = false;
             SecondAction();
             auxBool = false;
+            done = true;
         }
     }
 }
