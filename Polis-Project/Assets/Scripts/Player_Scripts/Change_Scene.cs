@@ -5,6 +5,9 @@ using UnityEngine;
 public class Change_Scene : MonoBehaviour
 {
     private Transform camPosition;
+    private Transform playerTransform;
+    [SerializeField]
+    private float playerPositionAdjustment;
     // Pega o Transform da camera
     [SerializeField]
     private float ajdustObjPosition = 33;
@@ -16,6 +19,7 @@ public class Change_Scene : MonoBehaviour
     //Pega o tranforme do objeto que usamos para mudar de cena
     void Start()
     {
+        playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
         camPosition = GameObject.Find("Main Camera").GetComponent<Transform>();
         thisTransform = GetComponent<Transform>();
         bc = GetComponent<BoxCollider2D>();
@@ -25,6 +29,8 @@ public class Change_Scene : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
+            playerTransform.position = new Vector3(playerTransform.position.x + playerPositionAdjustment,playerTransform.position.y,playerTransform.position.z);
+            // muda a posição do jogador
             camPosition.position = new Vector3(camPosition.position.x + ajdustObjPosition,camPosition.position.y,camPosition.position.z);
             // Muda a posição da camera exatamente para a direita
             thisTransform.position = new Vector3(thisTransform.position.x - adjustThisObjectMovBack ,thisTransform.position.y,thisTransform.position.z);

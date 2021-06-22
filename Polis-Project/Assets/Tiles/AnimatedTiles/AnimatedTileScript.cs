@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 [CreateAssetMenu(menuName = "Tile.../Animated FallingGround Tile", fileName = "New Animated Tile")]
 
-public class AnimatedTile : TileBase
+public class AnimatedTileScript : TileBase
 {
     public Sprite[] sprites;
     // sprites que serão utilizados na animção
