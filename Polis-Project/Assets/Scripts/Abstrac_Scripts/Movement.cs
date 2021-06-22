@@ -29,7 +29,7 @@ public abstract class Movement : MonoBehaviour
     protected virtual void FixedUpdate() 
     {
         // chama o Moving()
-        Moving();    
+        Moving();
     }
     protected void Moving()
     {
@@ -54,7 +54,8 @@ public abstract class Movement : MonoBehaviour
             rb.angularVelocity = 0f;
         }
         // cancela o bool do input
-        }else
+        }
+        else
         {
             // cancela as forças caso o input seja nulo
             if(rb.IsTouchingLayers(lm))
