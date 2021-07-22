@@ -19,10 +19,14 @@ public abstract class Movement : MonoBehaviour
     // Layer do chão
     protected Collider2D cd;
     // Collider2D do Player
+    protected bool direcao = true;
+    //
+    protected SpriteRenderer playerRander;
     protected virtual void Awake() 
     {
         // Atribui as três ultimas variáveis a componentes / Layers
         rb = GetComponent<Rigidbody2D>();
+        playerRander = GetComponent<SpriteRenderer>();
         cd = GetComponent<Collider2D>();
         lm = LayerMask.GetMask("Ground");
     }
@@ -35,6 +39,10 @@ public abstract class Movement : MonoBehaviour
     {
         if (right)
         {
+            if (!direcao)
+            {
+                direcao = true; 
+            }
             // entra caso o input recebido seja "d"
             if (direction.x < 0) 
             {
@@ -68,6 +76,10 @@ public abstract class Movement : MonoBehaviour
 
         if (left)
         {
+            if (direcao)
+            {
+                direcao = false;
+            }
             // entra caso o input recebido seja "a"
             if (direction.x > 0) 
             {

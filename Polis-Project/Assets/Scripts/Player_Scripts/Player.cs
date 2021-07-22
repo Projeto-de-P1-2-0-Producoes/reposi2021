@@ -17,27 +17,6 @@ public sealed class Player : Movement
     }
     private void Update()
     {
-        /*
-        if (Input.GetAxis("Horizontal") < 0)
-        {
-            transform.Rotate(Vector3(0, 180, 0));
-        }
-        else
-        {
-            transform.Rotate(Vector3(0, 0, 0));
-        }
-        // Anima��o andando
-        if (Input.GetAxis("Horizontal") != 0)
-        {
-            animator.SetBool("taCorrendo", true);
-        }
-        else 
-        {
-            animator.SetBool("taCorrendo", false);
-        }
-        */
-        
-
         // Chama o GettingInputs()
         EndInput();  
         GettingInputs();
