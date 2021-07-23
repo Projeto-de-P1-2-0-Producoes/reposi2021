@@ -18,7 +18,6 @@ public sealed class Player : Movement
     private void Update()
     {
         // Chama o GettingInputs()
-        EndInput();  
         GettingInputs();
     }
     protected override void FixedUpdate()
@@ -40,27 +39,18 @@ public sealed class Player : Movement
             animator.SetBool("Idleing", false);
             right = true;
             animator.SetFloat("Direction", 1);
+            
         }
-        if(Input.GetAxis("Horizontal") < 0)
+        else if(Input.GetAxis("Horizontal") < 0)
         {
             animator.SetBool("Idleing", false);
             left = true;
             animator.SetFloat("Direction", -1);
+            
         }
-        if(Input.GetAxis("Horizontal") == 0)
+        else
         {
             animator.SetBool("Idleing", true);
-        }
-    }
-    private void EndInput()
-    {
-        if(right)
-        {
-            right = false;
-        }
-        if(left)
-        {
-            right = false;
         }
     }
 }
