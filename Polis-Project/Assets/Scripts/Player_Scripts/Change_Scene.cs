@@ -4,25 +4,19 @@ using UnityEngine;
 
 public class Change_Scene : MonoBehaviour
 {
-    private Transform camPosition;
+    private Transform camTransform;
+    public BoolVariable playerHoldingStone;
+    public BoolVariable firstActionDone;
     private Transform playerTransform;
     [SerializeField]
     private float playerPositionAdjustment;
-    // Pega o Transform da camera
     [SerializeField]
     private float ajdustObjPosition = 33;
     [SerializeField]
-    private float adjustThisObjectMovBack = 1.2f;
-    private BoxCollider2D bc;
-    // Pega o BoxCollider2D do objeto que usamos para mudar de cena
-    private Transform thisTransform;
-    //Pega o tranforme do objeto que usamos para mudar de cena
     void Start()
     {
         playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
-        camPosition = GameObject.Find("Main Camera").GetComponent<Transform>();
-        thisTransform = GetComponent<Transform>();
-        bc = GetComponent<BoxCollider2D>();
+        camTransform = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Transform>();
         // Atribui todos os componentes como citado acima
     }
     private void OnTriggerEnter2D(Collider2D other) 
@@ -31,12 +25,10 @@ public class Change_Scene : MonoBehaviour
         {
             playerTransform.position = new Vector3(playerTransform.position.x + playerPositionAdjustment,playerTransform.position.y,playerTransform.position.z);
             // muda a posição do jogador
-            camPosition.position = new Vector3(camPosition.position.x + ajdustObjPosition,camPosition.position.y,camPosition.position.z);
+            camTransform.position = new Vector3(camTransform.position.x + ajdustObjPosition,camTransform.position.y,camTransform.position.z);
             // Muda a posição da camera exatamente para a direita
-            thisTransform.position = new Vector3(thisTransform.position.x - adjustThisObjectMovBack ,thisTransform.position.y,thisTransform.position.z);
-            // Muda a posição do objeto que usamos de mudança de cena para exatamente esquerda da camera
-            bc.isTrigger = false;
-            // Desliga o trigger para que o player não consiga voltar 
+            firstActionDone.value = false;
+            playerHoldingStone.value = false;
         }    
     }
 }
