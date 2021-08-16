@@ -10,6 +10,7 @@ public class StoneDestroyer : MonoBehaviour
     private List<Vector3> stonesTransformVector3List = new List<Vector3>();
     private int StoneCollisionIndex;
     public BoolVariable firstInteractionDone;
+    public BoolVariable stoneInteraction;
     private void Start() 
     {
         foreach(GameObject stone in stonesList)
@@ -19,11 +20,12 @@ public class StoneDestroyer : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D other) 
     {
-        if(other.transform.CompareTag("Player"))
+        if(other.transform.CompareTag("Player") && stoneInteraction.value)
         {
             GetStoneIndex();
             ReturnOriginalPosition();
             firstInteractionDone.value = false;
+            stoneInteraction.value = false;
         }    
     }
     private void GetStoneIndex()

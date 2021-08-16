@@ -6,7 +6,7 @@ public sealed class Player : Movement
 {
     private Animator animator;
     private GameObject lastGameObject; 
-    private bool stoneInteraction = false;
+    public BoolVariable stoneInteraction;
     public BoolVariable firstInteractionDone;
     private Vector2 castRayDirection;
     private void Start()
@@ -78,7 +78,7 @@ public sealed class Player : Movement
                 lastGameObject = hit2D.collider.gameObject;
                 hit2D.collider.gameObject.SetActive(false);
                 firstInteractionDone.value = true;
-                stoneInteraction = true;
+                stoneInteraction.value = true;
             }
         }
     }
@@ -86,7 +86,7 @@ public sealed class Player : Movement
     {
         //raycasthit2d here is for future interactions that might need it
         RaycastHit2D hit2D = CastRay2D(); 
-        if(stoneInteraction && lastGameObject != null && GetComponent<Rigidbody2D>().IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if(stoneInteraction.value && lastGameObject != null && GetComponent<Rigidbody2D>().IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             if(castRayDirection.x > 0)
             {
@@ -98,7 +98,7 @@ public sealed class Player : Movement
                 lastGameObject.SetActive(true);
             }
             lastGameObject = null;
-            stoneInteraction = false;
+            stoneInteraction.value = false;
             firstInteractionDone.value = false;
         }
     }
