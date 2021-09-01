@@ -30,7 +30,7 @@ public sealed class Player : Movement
     private void GettingInputs()
     {
         // Ativa um bool para cada Input recebido
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKey(KeyCode.Space))
         {
             jump = true;
         }

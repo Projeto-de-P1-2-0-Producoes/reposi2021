@@ -11,4 +11,19 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menu_Scene.unity
+    guid: 40a92981a7636d141a59ddf2feb5b554
+  - enabled: 1
+    path: Assets/Scenes/IceSceneEscola.unity
+    guid: ae2603aa6b471674e8acf38176c6467b
+  - enabled: 1
+    path: Assets/Scenes/CreditScene.unity
+    guid: 85f4be483e32c2848aef12e2661042bd
+  - enabled: 1
+    path: Assets/Scenes/Ice_Scene.unity
+    guid: 65064696cade87a4d83feded66bc6056
+  - enabled: 1
+    path: Assets/Scenes/Fire_Scene.unity
+    guid: 795ae863af72eb942a7785639b305c77
   m_configObjects: {}

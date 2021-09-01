@@ -23,7 +23,7 @@ public class Change_Scene : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            playerTransform.position = new Vector3(playerTransform.position.x + playerPositionAdjustment,playerTransform.position.y,playerTransform.position.z);
+            playerTransform.position = new Vector3(playerTransform.position.x + playerPositionAdjustment,-4.774964f,playerTransform.position.z);
             // muda a posição do jogador
             camTransform.position = new Vector3(camTransform.position.x + ajdustObjPosition,camTransform.position.y,camTransform.position.z);
             // Muda a posição da camera exatamente para a direita
