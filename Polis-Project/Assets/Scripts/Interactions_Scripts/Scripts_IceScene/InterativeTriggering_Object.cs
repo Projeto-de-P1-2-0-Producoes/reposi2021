@@ -14,6 +14,7 @@ public abstract class InterativeTriggering_Object : MonoBehaviour
     protected LayerMask lm;
     protected Rigidbody2D player;
     protected bool IsOnRadius;
+    public BoolVariable firstInteractionDone;
     protected virtual void Start()
     {
         IsOnRadius = false;
@@ -32,18 +33,20 @@ public abstract class InterativeTriggering_Object : MonoBehaviour
     protected void OnTriggerStay2D(Collider2D other) 
     {
         IsOnRadius = true;
-        if(inputRegister && !firstDone && other.gameObject.tag == "Player" && IsOnRadius)
+        if(inputRegister && /*!firstDone*/ !firstInteractionDone.value && other.gameObject.tag == "Player" && IsOnRadius)
         {
             FirstAction();
             inputRegister = false; 
-            firstDone = true;
+            // firstDone = true;
+            firstInteractionDone.value = true;
         }
-        else if(other.gameObject.tag == "Player" && inputRegister && firstDone && IsOnRadius)
+        else if(other.gameObject.tag == "Player" && inputRegister && /*firstDone*/ firstInteractionDone.value && IsOnRadius)
         // a terceira verificação é para conferir se o objeto já foi movido
         {
             SecondAction();
             inputRegister = false; 
-            firstDone = false;
+            firstInteractionDone.value = false;
+            // firstDone = false;
         }
         
     }

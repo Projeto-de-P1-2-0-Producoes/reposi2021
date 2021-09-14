@@ -67,7 +67,7 @@ public class Player_Jump : MonoBehaviour
         protected RaycastHit2D CastJumpRay2D(bool a=false)
     {
         Vector2 rayStartPosition = new Vector2(transform.position.x,transform.position.y - 1.2f);
-        float rayLenght = .3f;
+        float rayLenght = .4f;
         Color rayColor = Color.red;
         //vetor funciona melhor pra cima n sei pq
         RaycastHit2D hit2D = Physics2D.Raycast(rayStartPosition,Vector2.up,rayLenght);
